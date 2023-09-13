@@ -10,6 +10,7 @@ app.use(
   cors({
     origin: [
       "http://192.168.1.17:3000",
+      "https://ffghkaian.github.io/patch-frontend/",
       "http://localhost:3000"
       ],
     methods: ["PUT", "GET", "POST", "DELETE", "PATCH" ],
